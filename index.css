@@ -1,0 +1,66 @@
+h1{
+    color:#0491F9;
+}
+ #central-content {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 90%;
+     position:center;
+}
+p{
+     color:#073659;
+     font-size:22px;
+}
+header{
+     position:center;
+     display:center;
+    
+}
+div{
+    display:center;
+}
+.navbar-nav a{
+    color:black;
+}
+#logueado{
+    display:block;
+}
+/* Input Forms*/
+input[type="text"], input[type="password"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  color: #fff;
+  background: #0098cb;
+  width: 320px;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #00b8eb;
+}
+
+/* Header */
+header {
+  border-bottom: 2px solid #eee;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  color: #333;
+}
